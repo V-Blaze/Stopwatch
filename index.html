@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch</title>
+    <link rel="stylesheet" href="main.css">
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+    <section>
+        <div class="title">
+            <h1 class="h1">STOP-WATCH</h1>
+            <h1>VANILLA JAVASCRIPT STOPWATCH</h1>
+        </div>
+        <div class="main">
+            <div>
+                <!-- <input type="number" name="time" id="timer" value="00.00" disabled> -->
+                <p class="timer" style="font-family: 'Orbitron', sans-serif;">
+                    <span id="tens" style="font-family: 'Orbitron', sans-serif;">00
+                    </span>
+                    :
+                    <span id="sec" style="font-family: 'Orbitron', sans-serif;">00
+                    </span>
+                </p>
+
+                <audio id="beep" src="https://media.geeksforgeeks.org/wp-content/uploads/20190531135120/beep.mp3">
+
+                </audio>
+            </div>  
+            <div id="buttons">
+                <button id="start">START</button>
+                <button id="stop">STOP</button>
+                <button id="reset">RESET</button>
+            </div>
+        </div>
+            
+    </section>
+    <footer class="footer">
+        <div>
+            <h2>
+                Copyright of Val-Blaze 2022! 
+            </h2>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

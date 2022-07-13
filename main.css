@@ -1,0 +1,92 @@
+* {
+    text-align: center;
+}
+
+body {
+    background-color: goldenrod;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin: 0px;
+}
+
+.h1 {
+    font-size: 5vmin;
+}
+
+.title {
+    position: absolute;
+    top: 15%;
+    left: 35%;
+}
+
+.main {
+    position: absolute;
+    top: 35%;
+    left: 35%;
+}
+
+#tens {
+    color: white;
+    font-weight: bolder;
+    font-size: 10vmin;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 5px 0px 15px 0px;
+}
+
+#sec {
+    color: white;
+    font-weight: bolder;
+    font-size: 10vmin;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 5px 0px 15px 0px;
+}
+
+.timer {
+    color: white;
+    font-weight: bolder;
+    font-size: 10vmin;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 5px 0px 15px 0px;
+}
+
+#buttons {
+    margin: 10px;
+}
+
+#start {
+    background-color: transparent;
+    margin: 4px 6px 4px 6px;
+    padding: 15px;
+    border-radius: 5px;
+    border-color: green;
+    
+}
+
+button:hover {
+    cursor: pointer;
+    
+}
+
+#stop {
+    background-color: transparent;
+    margin: 4px 6px 4px 6px;
+    padding: 15px;
+    border-radius: 5px;
+    border-color: red;
+}
+
+#reset {
+    background-color: transparent;
+    margin: 4px 6px 4px 6px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+
+.footer {
+position: absolute;
+background-color: black;
+width: 100%;
+bottom: 0px;
+}
+
